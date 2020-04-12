@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<title>Vaishally Verma-Portfolio</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<script src="js/modernizr-custom.js"></script>
+	</head>
+
+	<body>
+
+		<div class="wrapper">
+
+<!-- Header -->
+			<header>
+
+				<a href="index.html"><h1>Vaishally Verma </h1></a>
+				
+
+
+			</header>
+
+<!-- Navigation -->
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+				<div class="handle"><img src="images/icons/burger-menu.png"></div>
+			</nav>
+
+<!-- Article -->
+			<article>
+				<!-- <h3 class="about-heading">Resume</h3> -->
+				<div class="myresume"><img src="images/photography/resume.jpg"></div>
+				<!-- <div class="aboutme"> <p>
+			</div>
+			</article>
+ -->
+<!-- Social Links -->
+				<div class="social-links">
+					
+					<a href="https://www.linkedin.com/in/vaishally-verma-014277146/" class="fa fa-linkedin"></a>
+					<a href="https://www.instagram.com/vaishallyverma/" class="fa fa-instagram"></a>
+					<a href="https://www.facebook.com/vaishally.verma" class="fa fa-facebook"></a>
+				</div>			
+<!-- Footer -->
+			<footer>
+				<p>Copyright &copy; Vaishally Verma 2020.</p>
+			</footer>
+		</div><!-- /.wrapper -->
+
+<!-- Scripts -->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="js/lightbox.js"></script>
+
+<!-- JQuery -->
+		<script>
+			$(document).ready(function(){
+		// Menu Handle
+				$('.handle').on('click', function(){
+					$('nav ul').toggleClass('showing');
+				});
+			});
+		</script>
+	</body>
+</html>
